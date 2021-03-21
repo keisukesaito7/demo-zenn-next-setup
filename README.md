@@ -2,6 +2,19 @@
 
 * [zennの記事](https://zenn.dev/yukishinonome/articles/bfb4a79a4b81b0)を参考に環境構築
 
+
+## 環境構築
+
+```
+$ git clone https://github.com/keisukesaito7/demo-zenn-next-setup.git <appName>
+# alias clone-n-pro='git clone https://github.com/keisukesaito7/demo-zenn-next-setup.git'
+
+$ cd <appName>
+
+$ yarn install
+
+$ yarn dev
+```
 ---
 
 # NextJS Typescript Boilerplate
