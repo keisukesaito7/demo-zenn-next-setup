@@ -1,9 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 
 import { Header } from './Header'
 import './page.css'
 
 export interface PageProps {
+  // eslint-disable-next-line @typescript-eslint/ban-types
   user?: {}
   onLogin: () => void
   onLogout: () => void
